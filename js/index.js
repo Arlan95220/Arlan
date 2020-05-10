@@ -32,6 +32,15 @@ var s49num =0;
 setInterval("fort()",7000);
 setInterval("kn()",10000);
 setInterval("scp049ch()",500);
+function mouseOver()
+{
+whoph.src="image/egg.png";
+}
+
+function mouseOut(){
+whoph.src="image/who.jpg";
+}
+
 function fort()
 {
   if(nums==6)
